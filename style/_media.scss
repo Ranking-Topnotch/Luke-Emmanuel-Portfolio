@@ -167,3 +167,36 @@
     }
     
 }
+@media screen and (max-width: 500px){
+    .right-header{
+        padding-right: 1rem;
+        .name{
+            font-size: 1.8rem !important;
+        }
+    }
+    .header-content{
+        padding: 7rem 1rem;
+    }
+    .controls{
+        width: 100%;
+        .control{
+            margin: .6rem 0.5rem;
+        }
+       }
+    .portfolio{
+        grid-template-columns: 1fr;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        i{
+            display: flex;
+            align-items: center;
+            font-size: 0.2rem;
+        }
+    }
+   
+  }
