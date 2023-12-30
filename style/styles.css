@@ -338,6 +338,9 @@ section {
 .about-stat .progress-bars .progress-bar .progress-container .progress .react {
   width: 75%;
 }
+.about-stat .progress-bars .progress-bar .progress-container .progress .node {
+  width: 60%;
+}
 
 .stat-title {
   text-transform: uppercase;
@@ -374,8 +377,8 @@ section {
 .portfolio .portfolio-item img {
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   border-radius: 15px;
 }
 .portfolio .portfolio-item .hover-item {

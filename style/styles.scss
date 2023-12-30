@@ -321,6 +321,9 @@ section{
                     .react{
                         width: 75%;
                     }
+                    .node{
+                        width: 60%;
+                    }
                 }
             }
         }
@@ -357,7 +360,7 @@ section{
         img{
             width: 100%;
             height: 300px;
-            object-fit: cover;
+            object-fit: fill;
             border-radius: 15px;
         }
         .hover-item{
