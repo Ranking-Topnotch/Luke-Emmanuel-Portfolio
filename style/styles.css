@@ -333,13 +333,16 @@ section {
   width: 70%;
 }
 .about-stat .progress-bars .progress-bar .progress-container .progress .java {
-  width: 65%;
+  width: 75%;
 }
 .about-stat .progress-bars .progress-bar .progress-container .progress .react {
   width: 75%;
 }
+.about-stat .progress-bars .progress-bar .progress-container .progress .nextjs {
+  width: 50%;
+}
 .about-stat .progress-bars .progress-bar .progress-container .progress .node {
-  width: 60%;
+  width: 75%;
 }
 
 .stat-title {
@@ -377,8 +380,8 @@ section {
 .portfolio .portfolio-item img {
   width: 100%;
   height: 300px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: true;
+     object-fit: true;
   border-radius: 15px;
 }
 .portfolio .portfolio-item .hover-item {

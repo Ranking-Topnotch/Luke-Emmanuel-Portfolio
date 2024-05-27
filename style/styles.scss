@@ -316,13 +316,16 @@ section{
                         width: 70%;
                     }
                     .java{
-                        width: 65%;
+                        width: 75%;
                     }
                     .react{
                         width: 75%;
                     }
+                    .nextjs{
+                        width: 50%;
+                    }
                     .node{
-                        width: 60%;
+                        width: 75%;
                     }
                 }
             }
@@ -360,7 +363,7 @@ section{
         img{
             width: 100%;
             height: 300px;
-            object-fit: fill;
+            object-fit: comparable($number1: 80%, $number2: 80% );
             border-radius: 15px;
         }
         .hover-item{
