@@ -167,7 +167,7 @@ section{
     .h-shape{
         transition: var(--transition);
         width: 65%;
-        height: 100%;
+        height: 90%;
         background-color: var(--color-secondary);
         position: absolute;
         left: 0;
@@ -177,7 +177,7 @@ section{
     }
     .image{
         border-radius: var(--br-sm-2);
-        height: 90%;
+        height: 80%;
         width: 68%;
         margin-left: 4rem;
         background-color: var(--color-black);
@@ -326,6 +326,9 @@ section{
                     }
                     .node{
                         width: 75%;
+                    }
+                    .mysql{
+                        width: 65%;
                     }
                 }
             }
